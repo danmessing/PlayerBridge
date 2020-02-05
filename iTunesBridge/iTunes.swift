@@ -8,7 +8,8 @@ import ScriptingBridge
 @objc public protocol SBApplicationProtocol: SBObjectProtocol {
     func activate()
     var delegate: SBApplicationDelegate! { get set }
-    var running: Bool { @objc(isRunning) get }
+//    var running: Bool { @objc(isRunning) get }
+	var running: Bool { get }
 }
 
 // MARK: iTunesEKnd
