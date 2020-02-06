@@ -9,7 +9,7 @@ import ScriptingBridge
     func activate()
     var delegate: SBApplicationDelegate! { get set }
 //    var running: Bool { @objc(isRunning) get }
-	var running: Bool { get }
+//	var running: Bool { get }
 }
 
 // MARK: iTunesEKnd
